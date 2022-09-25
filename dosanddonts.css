@@ -1,0 +1,22 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, h1 {
+    text-align: center;
+}
+
+p {
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+
+a {
+    padding-left: 3cm;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,79 @@
+.title {
+    padding-left: 13cm;
+    padding-top: 0.2cm;
+    flex-grow: 1;
+    background-color: rgb(4, 87, 31);
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+}
+
+.quote {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(149, 230, 166);
+}
+
+.about_us {
+    padding: 30px;
+    background-color: rgb(149, 230, 166);
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.park_images_flex2 {
+    padding-right: 5cm;
+    padding-left: 0.5cm;
+}
+
+.details_flex1 {
+    padding-left: 5cm;
+    padding-right: 0.5cm;
+}
+
+table {
+    border-spacing: 7px 7px;
+    border: 10px solid green;
+}
+
+.feedback {
+    text-align: center;
+    background-color: rgb(149, 230, 166);
+}
+
+.imp_links {
+    
+    background-color: rgb(149, 230, 166);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+.dosanddonts {
+    text-align: center;
+    padding: 1cm;
+}
+
+#image {
+    transition: transform 0.5s; 
+    margin: 0 auto;
+}
+  
+#image:hover {
+    transform: scale(1.5); 
+}
+
+#gandhi-tekdi-info , #butterfly-info {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
